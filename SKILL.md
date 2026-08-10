@@ -26,9 +26,16 @@ SKILL_DIR = this directory. Read `config.yaml` for `progress_dir` (default
 
 ## Session start (every invocation)
 
-1. Silent prerequisite check: music-analysis skill + ffmpeg (required — if missing,
-   say plainly that bounce review is degraded to screenshots+words until installed);
-   yt-dlp, music-generation skill, phantom (optional — note capability only when relevant).
+1. Silent prerequisite check: music-analysis skill + ffmpeg (required); yt-dlp,
+   music-generation skill, phantom (optional — note capability only when relevant).
+   If a required tool is missing: say plainly that bounce review is degraded to
+   screenshots+words until it's installed, then OFFER to install it right now —
+   ffmpeg via the platform package manager (macOS: `brew install ffmpeg`;
+   Windows: `winget install ffmpeg`; Linux: `sudo apt install ffmpeg`). Install
+   only on the user's explicit yes, never silently. If the install needs
+   privileges or a package manager that isn't present, hand the user the exact
+   command to run themselves instead of attempting it. Offer once per session,
+   not per message.
 2. Read `progress_dir/concepts.md` and `progress_dir/active-track.md` if they exist.
 3. **First run** (no profile block): ask the level question — present the six personas
    from references/levels.md, write the profile block per references/memory-contract.md.
