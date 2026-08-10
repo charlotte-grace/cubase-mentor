@@ -29,7 +29,15 @@ Works in Claude Code and OpenAI Codex CLI. Pure markdown — no server, no scrip
 git clone https://github.com/charlotte-grace/cubase-mentor ~/.claude/skills/cubase-mentor
 ```
 
-Codex CLI (restart Codex afterwards):
+**Codex CLI — one command** (restart Codex afterwards):
+
+```bash
+npx skills add charlotte-grace/cubase-mentor -g -a codex
+```
+
+(The same [skills CLI](https://github.com/vercel-labs/skills) installs into Cursor, Gemini CLI, and others — drop `-a codex` to target every agent it detects.)
+
+**Codex CLI — manual alternative:**
 
 ```bash
 git clone https://github.com/charlotte-grace/cubase-mentor ~/.codex/skills/cubase-mentor
