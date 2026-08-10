@@ -1,7 +1,7 @@
 {
   "name": "cubase-mentor",
   "description": "Expert music-production mentor teaching through Cubase. Coaches original tracks toward finished bounces using a reference track or stated intent as the target, reviews bounced audio, enforces finish-line milestones, and answers standalone Cubase and production questions.",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "author": {
     "name": "charlotte-grace",
     "url": "https://github.com/charlotte-grace"
