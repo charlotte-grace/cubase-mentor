@@ -34,7 +34,7 @@ Resuming a shelved track: move the file back to `active-track.md`, re-enter at t
 
 ```markdown
 # Profile
-- **Level:** <L1–L6> — <label from levels.md>
+- **Level:** <L1–L7> — <label from levels.md>
 - **Set:** <YYYY-MM-DD>  **Updated:** <YYYY-MM-DD>
 - **Note:** <one optional line, e.g. "strong ears, DAW-new">
 

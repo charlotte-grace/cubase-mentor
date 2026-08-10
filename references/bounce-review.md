@@ -24,7 +24,7 @@ chain on that channel"), not as a substitute for listening.
    this bounce toward the current gate. Everything else you noticed: hold it. It will
    still be true next bounce.
 6. Deliver per the ladder and the user's level: question first at low levels, verdict
-   first at L6.
+   first at L7.
 
 ## Reading deltas honestly
 

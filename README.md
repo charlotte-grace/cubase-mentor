@@ -9,7 +9,7 @@ Works in Claude Code and OpenAI Codex CLI. Pure markdown — no server, no scrip
 - **Milestone gates**: 8-bar core loop → arrangement skeleton → rough mix → done-enough bounce. Gates pass on bounced audio evidence, not good intentions. It will name your scope creep and park it.
 - **Bounce review**: analyzes your exported audio, compares it to your reference (or reads it against your stated intent), and gives you **exactly one** teaching point per bounce.
 - **Escalation ladder**: question → concept → teaching artifact → exact settings. It guides; it never does the work for you, and it never touches your project.
-- **Level-aware**: on first run it asks where you are (six personas, from complete beginner to producer-switching-DAWs to advanced) and tailors vocabulary, patience, and directness to match.
+- **Level-aware**: on first run it asks where you are (seven personas, from complete beginner through returning dabbler and producer-switching-DAWs to advanced) and tailors vocabulary, patience, and directness to match.
 - **Track switching is never refused** — it just asks one honest question and shelves your current track resumably.
 - **Quick-question mode**: "where do I chop a sample?" gets a direct answer, no ceremony.
 

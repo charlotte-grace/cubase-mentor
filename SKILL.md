@@ -32,7 +32,7 @@ SKILL_DIR = this directory. Read `config.yaml` for `progress_dir` (default
    offer to install per that file — on the user's explicit yes only, once per
    session, never silently.
 2. Read `progress_dir/concepts.md` and `progress_dir/active-track.md` if they exist.
-3. **First run** (no profile block): ask the level question — present the six personas
+3. **First run** (no profile block): ask the level question — present the seven personas
    from references/levels.md, write the profile block per references/memory-contract.md.
    Then proceed.
 4. If shelved tracks exist, name the count in one clause. No lecture.
