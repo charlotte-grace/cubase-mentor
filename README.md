@@ -1,91 +1,80 @@
 # cubase-mentor
 
-An agent skill that acts as an expert music-production mentor teaching through Cubase. It coaches you from an 8-bar loop to a finished, rendered track — measured against a reference track you supply or an intent you state — and answers standalone Cubase and production questions in between. Genre-agnostic by design: your reference carries the taste, the skill carries the craft.
+An agent skill that acts as your music production mentor inside Cubase. It coaches you from a first loop to a finished track, reviews the audio you export, and answers any Cubase or production question. It works in Claude Code and in Codex.
 
-Works in Claude Code and OpenAI Codex CLI. Pure markdown — no server, no scripts.
+No genre is built in. You give it a reference track (or describe what you want to make) and it measures your progress against that.
 
 ## What it does
 
-- **Milestone gates**: 8-bar core loop → arrangement skeleton → rough mix → done-enough bounce. Gates pass on bounced audio evidence, not good intentions. It will name your scope creep and park it.
-- **Bounce review**: analyzes your exported audio, compares it to your reference (or reads it against your stated intent), and gives you **exactly one** teaching point per bounce.
-- **Escalation ladder**: question → concept → teaching artifact → exact settings. It guides; it never does the work for you, and it never touches your project.
-- **Level-aware**: on first run it asks where you are (seven personas, from complete beginner through returning dabbler and producer-switching-DAWs to advanced) and tailors vocabulary, patience, and directness to match.
-- **Track switching is never refused** — it just asks one honest question and shelves your current track resumably.
-- **Quick-question mode**: "where do I chop a sample?" gets a direct answer, no ceremony.
+- **Coaches real tracks.** Four milestones: an 8-bar loop, a full arrangement, a rough mix, a finished bounce. You make every creative decision. It keeps you moving toward done.
+- **Listens to your exports.** Upload a bounce and it analyses the audio, compares it to your reference, and gives you one clear thing to improve. Not a list, one thing.
+- **Teaches at your level.** On first use it asks where you are (seven options, from complete beginner to advanced) and adjusts its language and patience to match.
+- **Helps without taking over.** It asks questions first, explains concepts second, and only hands you exact settings when you are stuck and ask. It never edits your project.
+- **Lets you switch tracks.** Want to start something new mid-project? It asks one honest question, shelves your current track so you can resume it later, and moves on with you.
+- **Answers quick questions.** "Where do I chop a sample?" gets a direct answer, no ceremony.
 
 ## Install
 
-**Claude Code — one command (recommended):**
+**Claude Code** (one command):
 
 ```
 /plugin install github:charlotte-grace/cubase-mentor
 ```
 
-(Older versions: `/plugin marketplace add github:charlotte-grace/cubase-mentor`, then `/plugin install cubase-mentor@cubase-mentor-tools`.) On first run the mentor checks its audio prerequisites and offers to install anything missing — one yes and you're set.
-
-**Claude Code — manual alternative:**
-
-```bash
-git clone https://github.com/charlotte-grace/cubase-mentor ~/.claude/skills/cubase-mentor
-```
-
-**Codex CLI — one command** (restart Codex afterwards):
+**Codex CLI** (one command, then restart Codex):
 
 ```bash
 npx skills add charlotte-grace/cubase-mentor -g -a codex
 ```
 
-(The same [skills CLI](https://github.com/vercel-labs/skills) installs into Cursor, Gemini CLI, and others — drop `-a codex` to target every agent it detects.)
+**Codex in the ChatGPT desktop app** (no terminal needed). Paste this into Codex:
 
-**Codex CLI — manual alternative:**
+> Install a skill for me: clone https://github.com/charlotte-grace/cubase-mentor into ~/.codex/skills/cubase-mentor and confirm SKILL.md is there.
+
+Then quit and reopen the app.
+
+**Manual, any harness:**
 
 ```bash
-git clone https://github.com/charlotte-grace/cubase-mentor ~/.codex/skills/cubase-mentor
+git clone https://github.com/charlotte-grace/cubase-mentor ~/.claude/skills/cubase-mentor   # Claude Code
+git clone https://github.com/charlotte-grace/cubase-mentor ~/.codex/skills/cubase-mentor    # Codex
 ```
 
-Invoke with `/cubase-mentor` (Claude Code) or `$cubase-mentor` (Codex), or just start talking about your track — the description triggers it.
+**No git at all:** use the green **Code** button above, choose **Download ZIP**, unzip, rename the folder to exactly `cubase-mentor`, and move it into `~/.claude/skills/` or `~/.codex/skills/`.
 
-Update later with `git pull` in the same folder.
+To update later: run `git pull` in the skill folder, or reinstall the same way you installed.
 
-### Codex in the ChatGPT desktop app (no terminal needed)
+## First run
 
-Codex in the desktop app is a full agent — it runs the install for you. Paste this into Codex:
+1. It asks your level (once, never again).
+2. It checks its audio tools. If something is missing it offers to install it. Say yes and it handles the rest.
+3. Tell it what you are working on, or hand it a reference track.
 
-> Install a skill for me: clone https://github.com/charlotte-grace/cubase-mentor into ~/.codex/skills/cubase-mentor and confirm SKILL.md is there. Then check for ffmpeg and offer to install it if missing.
+## What it needs
 
-Restart Codex (quit and reopen the app) and the skill is live — it will offer to set up its remaining audio tools on first run.
-
-### No git? Two easier ways
-
-**Let your agent install it** (you're installing an agent skill, so you have one) — paste this into Claude Code:
-
-> Install the skill from https://github.com/charlotte-grace/cubase-mentor by cloning it into ~/.claude/skills/cubase-mentor
-
-**Or download manually:** the green **Code** button above → **Download ZIP** → unzip → rename the folder from `cubase-mentor-main` to `cubase-mentor` → move it into `~/.claude/skills/` (macOS Finder: Cmd+Shift+G, type `~/.claude/skills`). The folder name must be exactly `cubase-mentor`. To update, re-download the ZIP.
-
-## Prerequisites
-
-| Tool | Needed for | Required? |
-|------|-----------|-----------|
-| [music-analysis skill](https://mcpmarket.com/tools/skills/music-analysis-audio-intelligence) | listening to your bounces and reference tracks | **Yes** — without it, feedback degrades to screenshots + your descriptions |
-| ffmpeg | audio handling | **Yes** |
+| Tool | Used for | Required? |
+|------|----------|-----------|
+| [music-analysis skill](https://github.com/dvcrn/openclaw-skills-marketplace) | listening to your bounces and references | Yes. Without it, feedback relies on screenshots and your descriptions. |
+| ffmpeg | audio file handling | Yes |
 | yt-dlp | reference tracks from URLs | Optional |
-| music-generation skill | MIDI teaching examples | Optional |
-| [phantom](https://github.com/fadelabs/phantom) | engineering diagnostics (masking, phase, loudness) at the mix stage | Optional |
+| music-generation skill | MIDI examples to study | Optional |
+| [phantom](https://github.com/fadelabs/phantom) | mix diagnostics (masking, phase, loudness) | Optional |
+
+The skill offers to install all of these for you on first run. It only installs after you say yes.
 
 ## Configuration
 
-`config.yaml`:
+`config.yaml` has one setting that matters:
 
 ```yaml
 progress_dir: ./cubase-mentor-data
 ```
 
-`progress_dir` is where the mentor keeps its memory — two small files (your active track's state and a concept-tracking table) plus an archive of finished and shelved tracks. Point it anywhere; a folder in your notes system works well.
+This is where the mentor keeps its memory: your active track's state, a small table of concepts you have covered, and an archive of finished and shelved tracks. Point it at any folder you like.
 
-## Using it with another DAW
+## Using another DAW
 
-`references/cubase-map.md` is the only Cubase-specific file. Replace it with an equivalent map for your DAW and the rest of the skill follows.
+`references/cubase-map.md` is the only Cubase-specific file. To retarget the mentor, replace it with a map for your DAW. Your replacement must declare the DAW name and its official documentation site in the header, because the skill reads both from there.
 
 ## Acknowledgements
 
