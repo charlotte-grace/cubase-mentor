@@ -31,7 +31,14 @@ SKILL_DIR = this directory. Read `config.yaml` for `progress_dir` (default
    If a required tool is missing: say plainly that bounce review is degraded to
    screenshots+words until it's installed, then OFFER to install it right now —
    ffmpeg via the platform package manager (macOS: `brew install ffmpeg`;
-   Windows: `winget install ffmpeg`; Linux: `sudo apt install ffmpeg`). Install
+   Windows: `winget install ffmpeg`; Linux: `sudo apt install ffmpeg`); the
+   music-analysis skill from its marketplace repo — copy
+   `plugins/adam-researchh--music-analysis/skills/music-analysis/` from
+   https://github.com/dvcrn/openclaw-skills-marketplace into the skills
+   directory (or `npx skillfish add dvcrn/openclaw-skills-marketplace
+   music-analysis`), then its Python deps (librosa, numpy, soundfile) — on
+   externally-managed Pythons (PEP 668), into a venv colocated in the skill
+   folder, noting the venv python path for script runs. Install
    only on the user's explicit yes, never silently. If the install needs
    privileges or a package manager that isn't present, hand the user the exact
    command to run themselves instead of attempting it. Offer once per session,
