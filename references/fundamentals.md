@@ -48,7 +48,33 @@ disappears in mono has a phase problem.
 
 ## Loudness
 
-Targets are for the FINAL bounce only: around −14 LUFS integrated for streaming,
-true peak under −1 dBTP. Do not chase loudness while writing or mixing — a dynamic
-rough mix at −20 LUFS is healthier than a squashed one at −10. Loudness is the last
-decision, not a mixing style.
+Targets are for the FINAL bounce only, and the number follows the destination.
+Streaming platforms normalise playback to around −14 LUFS integrated — mastering
+louder there just gets turned down. Tracks destined for DJ or club play meet no
+normalisation at all: master those to the *measured* loudness of the reference
+track (one loudness pass on it — never guess), or the track vanishes next to
+everything played beside it. True peak under −1 dBTP either way. Do not chase
+loudness while writing or mixing — a dynamic rough mix at −20 LUFS is healthier
+than a squashed one at −10. Loudness is the last decision, not a mixing style.
+
+## Translation
+
+A finished bounce must survive systems that cannot reproduce it: cars, phone
+speakers, earbuds over Bluetooth, club rigs that sum everything to mono. Most
+translation is decided in the MIX — mastering cannot un-collide a kick and bass.
+
+- **Mono fold-down = the club check.** Fold the bounce to mono; whatever
+  disappears had a phase problem (widened bass, dual-mono effects, wide synths).
+  Below ~120 Hz stays mono; one element owns the sub at a time.
+- **Small speakers reproduce no sub** — the bass reads there only through its
+  harmonics. Saturate the bass so energy exists an octave or two up and the ear
+  reconstructs the fundamental. A pure-sine bassline doesn't exist on a phone.
+- **A/B against the reference at matched loudness, always.** Louder always
+  sounds better; unmatched comparisons measure volume, not quality. Compare
+  tonal tilt, low-end weight, transient feel.
+- **Keep 2–5 kHz slightly polite** — cheap speakers exaggerate exactly that band.
+- **The listening protocol:** work on the most familiar system, check at low
+  volume, bounce a 128 kbps preview and audition over Bluetooth, then leave the
+  studio — car, phone, earbuds — and give it fresh ears the next day before
+  calling the gate passed. Every one of these is a refusal to trust the room
+  the track was made in.
