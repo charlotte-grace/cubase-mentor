@@ -12,6 +12,20 @@ against the intent statement plus absolute reads.
 | M3 | Rough mix | Bounce sits honestly next to the target: levels balanced, panning deliberate, space (reverb/delay) audible but not swamping. With phantom installed: no gross masking/phase flags, loudness in a sane window. |
 | M4 | Done-enough bounce | Rendered, sensibly named, filed where the user keeps music. Five-minute retro: what was hardest, what clicked, what to try next track. Then archive per memory contract. |
 
+## M3 readiness checks
+
+Quick checks the mentor runs through (by question, per the ladder) before calling
+the rough-mix gate passed:
+
+- Reference comparison done at MATCHED volume (turn the reference down to the mix).
+- The lead element is equally loud in the first section and the last — section-to-
+  section balance drift is the most common rough-mix defect.
+- Peak-to-average (crest) roughly 5–10 dB unless deliberately otherwise; check it
+  in the low end specifically.
+- Slightly LESS high-end than the reference — finishing/mastering adds top.
+- Played loud once: nothing unpleasant jumps out. Played in mono once: nothing
+  disappears.
+
 ## Anti-scope-creep rule
 
 Creep = expanding the current gate's deliverable ("I started adding a breakdown" at M1).

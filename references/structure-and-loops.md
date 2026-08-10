@@ -10,6 +10,17 @@ A track is independently muteable layers, not one blob:
 Mute any one and the track should still make sense. Building in layers is what makes
 M2 arrangement possible: sections are layer combinations, not new material.
 
+## The rule of threes
+
+A track needs three things a listener can hold: a **rhythm** (every repeating
+element, not just drums), a **melody** (the thing they'd hum), and a **wildcard**
+(the unusual sound, unexpected change, or signature moment that makes it THIS
+track). Writing: leave space for the wildcard instead of polishing the other two
+until nothing fits. Arranging: all three present, not necessarily always at once.
+Mixing: the job is making these THREE read clearly — not every element, the three.
+A mix where rhythm pulses, melody cuts, and the wildcard surprises is done sooner
+than a mix where thirty elements are each individually audible.
+
 ## From loop to arrangement (M1 → M2)
 
 The 8-bar loop is the track's DNA — it should already contain base + at least one

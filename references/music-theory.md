@@ -17,6 +17,13 @@ Natural minor is the everyday default. Two relationships worth knowing:
   classic energy lift: maximally unrelated, maximally noticeable. Use once, late,
   if at all.
 
+**Key choice has a physical constraint.** The sub-bass fundamental lands on the
+key's root — and roots around E1–G1 (~41–49 Hz) reproduce on most playback systems
+while lower roots often don't (see fundamentals: low end). When the key is a free
+choice, keys whose root sits in that zone (E, F, F#, G and their minors) give the
+low end a head start. Transposing a finished idea a tone up or down to move the sub
+into the zone is a legitimate, cheap fix.
+
 Modes recolour the same seven notes by choosing a different home. Two useful ones:
 Dorian (minor with a brighter 6th — hopeful minor) and Phrygian (minor with a
 flattened 2nd — dark, tense, one semitone above home always looming). Try a bassline

@@ -33,6 +33,25 @@ boosts colour. Rough map (guides, not laws):
 One instrument owns a range at a time; two fighting for the same range is an
 arrangement problem before it is an EQ problem.
 
+## Low end
+
+The hardest part of most mixes, so it gets its own rules:
+
+- **The sub has a playable range.** Fundamentals around E1–G1 (~41–49 Hz) reproduce
+  on most systems; D1–Eb1 are acceptable; much below that most systems cannot
+  reproduce the note at all, and much above the sub sounds thin. This constrains
+  KEY CHOICE — see the theory reference.
+- **Starting balance, then ears:** kick around −6 dB on the meter, bass sitting
+  −12 to −15 relative to it. Loop the reference's kick+bass section and measure the
+  same relationship there before trusting any numbers.
+- **The sub moves slower than the bass.** A busy bassline over a sub holding long
+  notes on the fundamental reads as one fat instrument; a sub copying every 16th
+  reads as mud.
+- **Kick tail length is a groove decision:** roughly 25–50% of the bar. Longer
+  fights the bass; shorter leaves a hole.
+- **Mono below ~120 Hz, and check phase** between kick, bass, and sub — an out-of-
+  phase pair cancels exactly where the power should be.
+
 ## Compression
 
 A compressor turns dynamics into density. Four controls that matter first:

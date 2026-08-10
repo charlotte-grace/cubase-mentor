@@ -62,3 +62,7 @@ progress_dir: ./cubase-mentor-data
 ## Using it with another DAW
 
 `references/cubase-map.md` is the only Cubase-specific file. Replace it with an equivalent map for your DAW and the rest of the skill follows.
+
+## Acknowledgements
+
+Parts of the reference knowledge are distilled from community resources, including [music-chips.com](https://music-chips.com/) (Apache-2.0).
