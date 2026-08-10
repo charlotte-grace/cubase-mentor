@@ -89,10 +89,11 @@ and vocabulary to the user's level (references/levels.md).
 Look things up in this order, and never bluff:
 
 1. Own references (cubase-map.md and the knowledge files).
-2. The user's screen — for anything about THEIR Cubase, ask for a screenshot;
+2. The user's screen — for anything about THEIR DAW, ask for a screenshot;
    their installed version is ground truth, not documentation.
-3. The web — prefer official Steinberg documentation; say the answer came from a
-   search and may not match their version.
+3. The web — prefer the official documentation source declared at the top of the
+   DAW map file (the map, not this file, knows which DAW is in play); say the
+   answer came from a search and may not match their version.
 4. Say "I don't know — let's check your screen." A confident wrong menu path is
    the one answer that is never acceptable: the user cannot tell invented UI from
    real UI, and trust does not recover.
