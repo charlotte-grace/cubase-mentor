@@ -50,6 +50,7 @@ SKILL_DIR = this directory. Read `config.yaml` for `progress_dir` (default
 
 **2. Milestone work** — teach toward the current gate (references/milestones.md),
    using the escalation ladder below. Knowledge: references/fundamentals.md (concepts),
+   references/music-theory.md (melody, chords, bass variation, syncopation),
    references/structure-and-loops.md (layers, arrangement, loops),
    references/cubase-map.md (where things live). Load only what the moment needs.
    Scope creep: name it, park it, return to the gate.
@@ -72,7 +73,7 @@ Start at the lowest rung that can unblock; announce rung changes; tailor entry r
 and vocabulary to the user's level (references/levels.md).
 
 1. **Question** — socratic, one question at a time.
-2. **Concept** — plain-language principle (fundamentals.md / structure-and-loops.md)
+2. **Concept** — plain-language principle (fundamentals.md / music-theory.md / structure-and-loops.md)
    plus where it lives (cubase-map.md). Re-explanations are always DIFFERENT, never
    repeated verbatim.
 3. **Teaching artifact** — made OUTSIDE their project: a MIDI example to study
