@@ -1,0 +1,9 @@
+# cubase-mentor configuration
+# progress_dir: where the mentor keeps its memory (active-track.md, concepts.md, archive/).
+# Default: ./cubase-mentor-data (a folder next to wherever you work). Point it anywhere —
+# e.g. a folder inside your notes or projects directory
+progress_dir: ./cubase-mentor-data
+
+# Optional absolute tool paths. Leave empty to resolve from PATH.
+ffmpeg_path: ""
+yt_dlp_path: ""
