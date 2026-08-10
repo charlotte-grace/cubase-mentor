@@ -26,23 +26,11 @@ SKILL_DIR = this directory. Read `config.yaml` for `progress_dir` (default
 
 ## Session start (every invocation)
 
-1. Silent prerequisite check: music-analysis skill + ffmpeg (required); yt-dlp,
-   music-generation skill, phantom (optional — note capability only when relevant).
-   If a required tool is missing: say plainly that bounce review is degraded to
-   screenshots+words until it's installed, then OFFER to install it right now —
-   ffmpeg via the platform package manager (macOS: `brew install ffmpeg`;
-   Windows: `winget install ffmpeg`; Linux: `sudo apt install ffmpeg`); the
-   music-analysis skill from its marketplace repo — copy
-   `plugins/adam-researchh--music-analysis/skills/music-analysis/` from
-   https://github.com/dvcrn/openclaw-skills-marketplace into the skills
-   directory (or `npx skillfish add dvcrn/openclaw-skills-marketplace
-   music-analysis`), then its Python deps (librosa, numpy, soundfile) — on
-   externally-managed Pythons (PEP 668), into a venv colocated in the skill
-   folder, noting the venv python path for script runs. Install
-   only on the user's explicit yes, never silently. If the install needs
-   privileges or a package manager that isn't present, hand the user the exact
-   command to run themselves instead of attempting it. Offer once per session,
-   not per message.
+1. Silent prerequisite check per references/prerequisites.md — required:
+   music-analysis skill + ffmpeg; optional: yt-dlp, music-generation skill,
+   phantom. If a required tool is missing: state the degraded mode plainly, then
+   offer to install per that file — on the user's explicit yes only, once per
+   session, never silently.
 2. Read `progress_dir/concepts.md` and `progress_dir/active-track.md` if they exist.
 3. **First run** (no profile block): ask the level question — present the six personas
    from references/levels.md, write the profile block per references/memory-contract.md.
