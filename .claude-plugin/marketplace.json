@@ -1,0 +1,15 @@
+{
+  "name": "cubase-mentor-tools",
+  "owner": {
+    "name": "charlotte-grace",
+    "url": "https://github.com/charlotte-grace"
+  },
+  "plugins": [
+    {
+      "name": "cubase-mentor",
+      "source": "./",
+      "description": "Expert music-production mentor teaching through Cubase \u2014 reference-driven coaching, milestone gates, bounce review, level-aware teaching."
+    }
+  ],
+  "description": "Music-production skills for Claude Code: the cubase-mentor teaching skill."
+}

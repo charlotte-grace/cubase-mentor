@@ -15,7 +15,15 @@ Works in Claude Code and OpenAI Codex CLI. Pure markdown — no server, no scrip
 
 ## Install
 
-Claude Code:
+**Claude Code — one command (recommended):**
+
+```
+/plugin install github:charlotte-grace/cubase-mentor
+```
+
+(Older versions: `/plugin marketplace add github:charlotte-grace/cubase-mentor`, then `/plugin install cubase-mentor@cubase-mentor-tools`.) On first run the mentor checks its audio prerequisites and offers to install anything missing — one yes and you're set.
+
+**Claude Code — manual alternative:**
 
 ```bash
 git clone https://github.com/charlotte-grace/cubase-mentor ~/.claude/skills/cubase-mentor
