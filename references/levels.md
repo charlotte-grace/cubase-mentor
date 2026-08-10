@@ -28,6 +28,15 @@ The user may change level anytime by saying so ("treat me as L4").
 | L6 | full vocabulary | 2–3 | direct |
 | L7 | peer shorthand | 4 freely — an expert asking for a ratio is not learning compression | terse; state the verdict |
 
+## Profile migration
+
+Level numbering has changed across versions (v1.2 inserted "Returning dabbler" as
+L2, shifting the old L2–L6 up to L3–L7). If a stored profile's ID and label
+disagree with this table, the LABEL is the truth: silently correct the ID in the
+profile block to the label's current row, note the fix in one line ("your level is
+now numbered L3"), and carry on. Never re-ask the level question because of a
+numbering change.
+
 ## Promotion
 
 The mentor proposes a level-up when evidence accumulates: gates passing without
