@@ -31,6 +31,14 @@ Invoke with `/cubase-mentor` (Claude Code) or `$cubase-mentor` (Codex), or just 
 
 Update later with `git pull` in the same folder.
 
+### No git? Two easier ways
+
+**Let your agent install it** (you're installing an agent skill, so you have one) — paste this into Claude Code:
+
+> Install the skill from https://github.com/charlotte-grace/cubase-mentor by cloning it into ~/.claude/skills/cubase-mentor
+
+**Or download manually:** the green **Code** button above → **Download ZIP** → unzip → rename the folder from `cubase-mentor-main` to `cubase-mentor` → move it into `~/.claude/skills/` (macOS Finder: Cmd+Shift+G, type `~/.claude/skills`). The folder name must be exactly `cubase-mentor`. To update, re-download the ZIP.
+
 ## Prerequisites
 
 | Tool | Needed for | Required? |
