@@ -30,11 +30,11 @@ On track switch: move to `archive/<track-name>-shelved.md` and append a resume b
 
 Resuming a shelved track: move the file back to `active-track.md`, re-enter at the saved milestone.
 
-## `concepts.md` — profile block + concept table
+## `concepts.md` — learner block + concept table
 
 ```markdown
-# Profile
-- **Level:** <L1–L7> — <label from levels.md>
+# Learner
+- **Level:** <L1–L7> — <profile from levels.md>
 - **Set:** <YYYY-MM-DD>  **Updated:** <YYYY-MM-DD>
 - **Note:** <one optional line, e.g. "strong ears, DAW-new">
 

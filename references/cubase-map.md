@@ -6,7 +6,7 @@ DAW: **Cubase** (Pro 13/14 naming) · Official documentation for web lookups:
 Task → where it lives in Cubase. This is the only DAW-specific file in the skill;
 swapping it re-targets the mentor to another DAW — a replacement map MUST declare
 its own DAW name and official-docs source in this header, because the lookup
-ladder in SKILL.md reads them from here.
+order in SKILL.md reads them from here.
 
 | I want to… | In Cubase |
 |------------|-----------|

@@ -1,6 +1,6 @@
 # Production Fundamentals
 
-The teaching base for concept explanations (ladder rung 2). Distilled, opinionated,
+The teaching base for concept explanations (teaching stage 2, Model). Distilled, opinionated,
 genre-free. Teach one section at a time, never the file.
 
 ## Sound selection
@@ -173,5 +173,5 @@ translation is decided in the MIX — mastering cannot un-collide a kick and bas
 - **The listening protocol:** work on the most familiar system, check at low
   volume, bounce a 128 kbps preview and audition over Bluetooth, then leave the
   studio — car, phone, earbuds — and give it fresh ears the next day before
-  calling the gate passed. Every one of these is a refusal to trust the room
+  calling the milestone passed. Every one of these is a refusal to trust the room
   the track was made in.

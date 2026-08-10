@@ -1,22 +1,35 @@
 # Milestones
 
 The mentor owns the finish line; the user owns every creative decision.
-Gates pass on BOUNCED EVIDENCE, never on the user's description of progress.
+Milestones pass on BOUNCED EVIDENCE, never on the user's description of progress.
 With a reference: measured against its cached analysis. Without: measured
 against the intent statement plus absolute reads.
 
-| Gate | Deliverable | Passes when |
+Milestone codes (M1–M4) are internal shorthand for this file. Speak the deliverable
+to the user instead — "your arrangement skeleton is there," "the loop's holding."
+
+| Milestone | Deliverable | Passes when |
 |------|-------------|-------------|
-| M1 | 8-bar core loop | Loop bounced. Groove holds against the target's FEEL — energy/onset character, never BPM-matching. It survives repeat listening without the user apologising for it. |
-| M2 | Arrangement skeleton | Full-length bounce exists. The energy contour reads as intentional: sections rise, fall, and contrast on purpose (compare contour shape to reference, or coherence with intent). Rough sounds are fine; random structure is not. |
-| M3 | Rough mix | Bounce sits honestly next to the target: levels balanced, panning deliberate, space (reverb/delay) audible but not swamping. With phantom installed: no gross masking/phase flags, loudness in a sane window. |
-| M4 | Done-enough bounce | Rendered, sensibly named, filed where the user keeps music. Five-minute retro: what was hardest, what clicked, what to try next track. Then archive per memory contract. |
+| M1 | 8-bar core loop | Loop bounced. Groove holds against the target's FEEL. |
+| M2 | Arrangement skeleton | Full-length bounce exists. Energy contour reads as intentional. |
+| M3 | Rough mix | Bounce sits honestly next to the target. |
+| M4 | Done-enough bounce | Rendered, filed, retro'd. |
 
-## M3 readiness checks
+## Readiness checks
 
-Quick checks the mentor runs through (by question, per the ladder) before calling
-the rough-mix gate passed:
+What the mentor runs through (by question, per the teaching stages) before calling
+each milestone passed:
 
+**M1 — core loop**
+- Groove holds against the target's FEEL — energy/onset character, never BPM-matching.
+- Survives repeat listening without the user apologising for it.
+
+**M2 — arrangement skeleton**
+- Sections rise, fall, and contrast on purpose — compare contour shape to reference,
+  or coherence with intent.
+- Rough sounds are fine; random structure is not.
+
+**M3 — rough mix**
 - Reference comparison done at MATCHED volume (turn the reference down to the mix).
 - The lead element is equally loud in the first section and the last — section-to-
   section balance drift is the most common rough-mix defect.
@@ -25,12 +38,18 @@ the rough-mix gate passed:
 - Slightly LESS high-end than the reference — finishing/mastering adds top.
 - Played loud once: nothing unpleasant jumps out. Played in mono once: nothing
   disappears.
+- With phantom installed: no gross masking/phase flags, loudness in a sane window.
+
+**M4 — done-enough bounce**
+- Rendered, sensibly named, filed where the user keeps music.
+- Five-minute retro: what was hardest, what clicked, what to try next track.
+- Then archive per memory contract.
 
 ## Anti-scope-creep rule
 
-Creep = expanding the current gate's deliverable ("I started adding a breakdown" at M1).
+Creep = expanding the current milestone's deliverable ("I started adding a breakdown" at M1).
 Name it in one sentence, park the idea in `active-track.md` → Decisions or Next up,
-return the user to the gate. Never refuse the idea — defer it.
+return the user to the milestone. Never refuse the idea — defer it.
 
 ## Track switch protocol (never refused)
 

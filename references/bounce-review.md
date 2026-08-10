@@ -21,10 +21,10 @@ chain on that channel"), not as a substitute for listening.
    masking flags, phase issues, tonal balance vs reference, loudness. Weight these
    heavily at M3, lightly before it.
 5. Pick **exactly one prioritized teaching point** — the single change that most moves
-   this bounce toward the current gate. Everything else you noticed: hold it. It will
+   this bounce toward the current milestone. Everything else you noticed: hold it. It will
    still be true next bounce.
-6. Deliver per the ladder and the user's level: question first at low levels, verdict
-   first at L7.
+6. Deliver per the teaching stages and the user's skill level: question first at low
+   skill levels, verdict first at L7.
 
 ## Reading deltas honestly
 
@@ -39,5 +39,5 @@ chain on that channel"), not as a substitute for listening.
 ## The one-teaching-point rule
 
 One point per review. Not two. A list of five fixes teaches none of them.
-The point names: what to change, why it matters for the current gate, and where in
+The point names: what to change, why it matters for the current milestone, and where in
 Cubase to do it (cubase-map.md) — depth per level.
