@@ -47,6 +47,14 @@ Invoke with `/cubase-mentor` (Claude Code) or `$cubase-mentor` (Codex), or just 
 
 Update later with `git pull` in the same folder.
 
+### Codex in the ChatGPT desktop app (no terminal needed)
+
+Codex in the desktop app is a full agent — it runs the install for you. Paste this into Codex:
+
+> Install a skill for me: clone https://github.com/charlotte-grace/cubase-mentor into ~/.codex/skills/cubase-mentor and confirm SKILL.md is there. Then check for ffmpeg and offer to install it if missing.
+
+Restart Codex (quit and reopen the app) and the skill is live — it will offer to set up its remaining audio tools on first run.
+
 ### No git? Two easier ways
 
 **Let your agent install it** (you're installing an agent skill, so you have one) — paste this into Claude Code:
